@@ -17,9 +17,20 @@ background-image: url(img/react.png)
 }
 .back{
   background-color: #333;
+
+}
+.white-color{
+  color: #fff; 
+}
+.blue{
+  
+   color: #2c98f0;
+}
+.size{
+  font-size: 18px;
 }
 body {
-  font-family: "Quicksand", Arial, sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-weight: 400;
   font-size: 15px;
   line-height: 1.8;
@@ -38,11 +49,18 @@ a {
     text-decoration: none !important; }
 
 p {
-  margin-bottom: 1.5em; }
-
-h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 1.5em;
+ }
+ .font{
+  font-size:16px;
+ }
+.black{
   color: #000;
-  font-family: "Playfair Display", Georgia, serif;
+
+}
+ h2, h3, h4, h5, h6 {
+  color: #000;
+  font-family: "Playfair Display", serif;
   font-weight: 400;
   margin: 0 0 30px 0; }
 
@@ -56,7 +74,7 @@ figure {
     margin: 20px auto 0px auto;
     color: #b3b3b3;
     font-style: italic;
-    font-family: "Quicksand", Arial, sans-serif; }
+    font-family: "Quicksand", sans-serif; }
     @media screen and (max-width: 480px) {
       figure figcaption {
         width: 100%; } }
@@ -138,19 +156,26 @@ figure {
         #colorlib-aside #colorlib-main-menu ul {
           margin: 0 0 2em 0; } }
       #colorlib-aside #colorlib-main-menu ul li {
-        margin: 0 0 10px 0;
+        /* margin: 0 0 10px 0;
         padding: 0;
         list-style: none;
         font-size: 12px;
         font-weight: 500;
         text-transform: uppercase;
-        letter-spacing: 1px; }
+        letter-spacing: 1px;  */
+
+
+
+
+
+        
+      }
         #colorlib-aside #colorlib-main-menu ul li a {
           color: rgba(0, 0, 0, 0.7);
           text-decoration: none;
           position: relative;
           padding: 10px 0;
-          font-family: "Quicksand", Arial, sans-serif;
+          font-family: "Quicksand",sans-serif;
           -webkit-transition: 0.3s;
           -o-transition: 0.3s;
           transition: 0.3s; }
@@ -300,7 +325,7 @@ figure {
           margin: 0;
           padding: 0;
           color: black;
-          font-family: "Playfair Display", Georgia, serif; }
+          font-family: "Playfair Display", serif; }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
           margin-bottom: 20px;
           font-size: 60px;
@@ -314,9 +339,9 @@ figure {
           line-height: 1.5;
           margin-bottom: 30px;
           font-weight: 300;
-          font-family: "Quicksand", Arial, sans-serif; }
+          font-family: "Quicksand",  sans-serif; }
           #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 a {
-            color: rgba(44, 152, 240, 0.8);
+            color: rgba(3, 7, 10, 0.8);
             border-bottom: 1px solid rgba(44, 152, 240, 0.7); }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner .heading-section {
           font-size: 50px; }
@@ -635,7 +660,7 @@ body.offcanvas {
       font-size: 30px;
       color: #2c98f0; }
   .services h3 {
-    font-family: "Quicksand", Arial, sans-serif;
+    font-family: "Quicksand", sans-serif;
     font-size: 16px;
     font-weight: 500; }
   .services.color-2 {
@@ -897,7 +922,7 @@ body.offcanvas {
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 1px;
-    font-family: "Quicksand", Arial, sans-serif; }
+    font-family: "Quicksand",  sans-serif; }
     .blog-entry .desc h3 a {
       color: #000;
       text-decoration: none; }
@@ -1073,7 +1098,7 @@ body.offcanvas {
     font-size: 40px;
     display: block;
     color: white;
-    font-family: "Quicksand", Arial, sans-serif;
+    font-family: "Quicksand", sans-serif;
     width: 100%;
     font-weight: 700;
     margin-bottom: .3em; }
