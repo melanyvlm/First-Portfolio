@@ -26,9 +26,27 @@ background-image: url(img/react.png)
   
    color: #2c98f0;
 }
+.orange{
+  color:#ec5453;
+}
+.yellow{
+  color:#f9bf3f;
+}
+.purple{
+  color: #a84cb8;
+}
+.green{
+  color:#2fa499; 
+}
+.blue{
+  color:#4054b2;
+
+}
 .size{
   font-size: 18px;
 }
+
+
 body {
   font-family: "Quicksand", sans-serif;
   font-weight: 400;
@@ -1216,12 +1234,12 @@ body.offcanvas {
     outline: none !important; }
 
 .btn-primary {
-  background: #2c98f0;
+  background: #673AB7;
   color: #fff;
-  border: 2px solid #2c98f0; }
+  border: 2px solid #fff; }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-    background: #44a4f2 !important;
-    border-color: #44a4f2 !important; }
+    background: #673AB7 !important;
+    border-color: #673AB7 !important; }
   .btn-primary.btn-outline {
     background: transparent;
     color: #2c98f0;
